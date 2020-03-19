@@ -1,0 +1,22 @@
+{
+  "name": "stack-lint-rules",
+  "version": "1.0.0",
+  "description": "The official ESLint configuration for Stack Education",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --format codeframe ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackeducation/stack-lint-rules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stackeducation/stack-lint-rules/issues"
+  },
+  "homepage": "https://github.com/stackeducation/stack-lint-rules#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
