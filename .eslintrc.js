@@ -16,7 +16,7 @@ module.exports = {
     "camelcase": 0,
     "comma-spacing": ["error", { "before": false, "after": true }],
     "computed-property-spacing": ["error", "never"],
-    "dot-location": ["error", "object"],
+    "dot-location": ["error", "property"],
     "eol-last": ["error", "always"],
     "func-call-spacing": ["error", "never"],
     "function-paren-newline": ["error", "never"],
