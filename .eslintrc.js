@@ -10,7 +10,7 @@ module.exports = {
   },
   "rules": {
     "array-bracket-spacing": ["error", "never"],
-    "array-element-newline": ["error", { "multiline": true }],
+    "array-element-newline": ["error", "consistent"],
     "arrow-spacing": ["error", { "before": true, "after": true }],
     "block-spacing": "error",
     "camelcase": 0,
@@ -38,7 +38,7 @@ module.exports = {
     "object-curly-spacing": ["error", "always", { "arraysInObjects": true, "objectsInObjects": true }],
     "object-property-newline": ["error", { "allowAllPropertiesOnSameLine": true }],
     "one-var": ["error", "never"],
-    "operator-linebreak": ["error", "after"],
+    "operator-linebreak": ["error", "after", { "overrides": { "?": "before", ":": "before" } }],
     "padded-blocks": ["error", "never"],
     "padding-line-between-statements": [
       "error",
