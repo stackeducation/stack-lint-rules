@@ -14,14 +14,19 @@ const goodArrow = (a) => a
 const badArrowSpaceBefore = ()=> {}
 const badArrowSpaceAfter = () =>{}
 
-const goodBlockSpacing = (a, b) => { return a + b }
-const badBlockSpacing = (a, b) => {return a + b}
+// goodBlockSpacing
+let a = 'a'
 
-const foo = { baz: ''}
-const badDotPlacement = foo
-  .baz
-const goodDotPlacement = foo.
+if (a === 'a') { a = 1 }
+
+// badBlockSpacing
+if (a === 'a') {a = 1}
+
+const foo = { baz: '' }
+const badDotPlacement = foo.
   baz
+const goodDotPlacement = foo
+  .baz
 
 const badObjectNewLine = { foo: 1, bar: 2, baz: 3, bang: 4, bong: 5 }
 const goodObjectNewLine = { foo: 1, bar: 2, baz: 3, bang: 4 }
@@ -35,8 +40,6 @@ module.exports = {
   goodArrow,
   badArrowSpaceBefore,
   badArrowSpaceAfter,
-  goodBlockSpacing,
-  badBlockSpacing,
   badDotPlacement,
   goodDotPlacement,
   badObjectNewLine,
