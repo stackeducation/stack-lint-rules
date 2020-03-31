@@ -9,6 +9,7 @@ module.exports = {
   },
   "plugins": ["react"],
   "rules": {
+    "arrow-parens": [2, "as-needed", { "requireForBlockBody": true }],
     "camelcase": 0,
     "indent": [ "error", 2, { "SwitchCase": 1 }],
     "jsx-a11y/label-has-for": 0,

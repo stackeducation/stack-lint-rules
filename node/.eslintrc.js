@@ -55,6 +55,7 @@ module.exports = {
     "space-unary-ops": "error",
     "spaced-comment": ["error", "always"],
     "semi": ["error", "never"],
+    "semi-spacing": ["error", {"before": false, "after": true}],
     "switch-colon-spacing": "error",
     "template-tag-spacing": ["error", "always"],
   }
