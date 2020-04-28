@@ -11,6 +11,7 @@ module.exports = {
   "rules": {
     "arrow-parens": [2, "as-needed", { "requireForBlockBody": true }],
     "camelcase": 0,
+    "eqeqeq": ["error", "always"],
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "jsx-a11y/label-has-for": 0,
     "linebreak-style": ["error", "unix"],
